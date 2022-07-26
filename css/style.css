@@ -1,0 +1,32 @@
+/* ============ Default Styles ============ */
+#bg {
+  background: #fff9f4;
+}
+.primary-color {
+  color: #fa804c;
+}
+.secondary-color {
+  color: #363958;
+}
+.buy-now-btn {
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  border-radius: 10px;
+  padding: 0.87rem 1.87rem;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  transition: 0.4s;
+}
+.buy-now-btn:hover {
+  color: #fff;
+}
+.price-color {
+  color: #fa804c;
+}
+
+@media only screen and (max-width: 576px) {
+  .logo {
+    width: 200px;
+  }
+}
